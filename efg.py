@@ -55,7 +55,15 @@ ancsd = anc3 * 100 / teamA
 bncsd = bnc3 * 100 / teamB
 a2sd = a2 * 100 / teamA
 b2sd = b2 * 100 / teamB
-print("For team A, the shot distribution is " + str(round(acsd,3)) + "% from corner 3's, " + str(round(ancsd,3)) + "% from non-corner 3's, and " + str(round(a2sd,3)) + "% for 2 point shots")
-print("The eFG% from each zone for team A is " + str(round(acefg,3)) + " from corner 3's, " + str(round(ancefg,3)) + " from non-corner 3's, and " + str(round(a2efg,3)) + " for 2 point shots")
-print("For team B, the shot distribution is " + str(round(bcsd,3)) + "% from corner 3's, " + str(round(bncsd,3)) + "% from non-corner 3's, and " + str(round(b2sd,3)) + "% for 2 point shots")
-print("The eFG% from each zone for team B is " + str(round(bcefg,3)) + " from corner 3's, " + str(round(bncefg,3)) + " from non-corner 3's, and " + str(round(b2efg,3)) + " for 2 point shots")
+print("For team A, the shot distribution is " + str(round(acsd,3)) + "% from"\
+     "corner 3's, " + str(round(ancsd,3)) + "% from non-corner 3's,"\
+        " and " + str(round(a2sd,3)) + "% for 2 point shots")
+print("The eFG% from each zone for team A is " + str(round(acefg,3)) + " from "\
+    "corner 3's, " + str(round(ancefg,3)) + " from non-corner 3's, "\
+        "and " + str(round(a2efg,3)) + " for 2 point shots")
+print("For team B, the shot distribution is " + str(round(bcsd,3)) + "% from "\
+    "corner 3's, " + str(round(bncsd,3)) + "% from non-corner 3's, "\
+        "and " + str(round(b2sd,3)) + "% for 2 point shots")
+print("The eFG% from each zone for team B is " + str(round(bcefg,3)) + " from "\
+    "corner 3's, " + str(round(bncefg,3)) + " from non-corner 3's, "\
+        "and " + str(round(b2efg,3)) + " for 2 point shots")
